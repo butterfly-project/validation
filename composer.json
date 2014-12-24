@@ -1,0 +1,22 @@
+{
+    "name": "butterfly/validation",
+    "type": "library",
+    "description": "Butterfly PHP. Validation Component",
+    "keywords": ["Validation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Component\\Validation\\": "src/",
+            "Butterfly\\Component\\Validation\\Tests\\": "tests/"
+        }
+    }
+}
